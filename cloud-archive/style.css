@@ -10,7 +10,11 @@ font-size: 50px;
 text-shadow: 2px 2px 10px yellow;
 text-decoration: none;
 border-bottom: 12px solid blueviolet;
-line-height: 50px;
+/*line-height: 50px;*/
+padding: 20px;
+margin-bottom: 40px;
+
+
 }
 
 .ink {
@@ -22,4 +26,27 @@ line-height: 50px;
 .pen-style {
   border-color: pink;
   padding: 20px;
+}
+
+
+p {
+  padding: 40px;
+
+  margin-bottom: 40px;
+  display: inline;
+}
+
+.block {
+  display: block;
+  font-size: medium;
+  text-align: center;
+  text-shadow: none;
+  color: rgb(173, 25, 202);
+  text-decoration: line-through;
+  padding: .05px;
+  border-color: blueviolet;
+  border-style: double;
+  border-style: dotted;
+  border-width: 20px;
+
 }
