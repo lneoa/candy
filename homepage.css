@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color:mintcream;
+    padding: 20px;
+}
+
+
+a {
+    display: block;
+    font-size: 1.5em;
+    color: aqua;
+    margin-bottom: 8px;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px blue;
+}
+
+
+.link-container {
+    border: 2px solid greenyellow;
+    width: 100%;
+}
+
+
+.left, .right {
+    border: 2px dotted magenta;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+
+    .link-container {
+        border: 2px solid greenyellow;
+        display: flex;
+        width: 100%;
+    }
+
+    .left, .right {
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: yellow;
+        font-size: 2em;
+    }
+}
