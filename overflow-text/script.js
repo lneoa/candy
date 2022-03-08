@@ -1,4 +1,4 @@
-console.log("javascript is working but idk why lol")
+console.log("javascript is working i guess")
 
 
 let message = document.getElementById("overflow");
