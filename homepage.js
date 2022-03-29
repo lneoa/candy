@@ -25,4 +25,8 @@ function addBlackBorder() {
     if (counter > 2) {
         button.innerHTML = "by Leona Cheung"
     }
+
+    if (counter > 2) {
+        counter = 0;
+    }  
 }
