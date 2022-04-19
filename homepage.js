@@ -1,7 +1,4 @@
 
-
-
-
 let counter = 0;
 let button = document.querySelector(".clickme");
 console.log(counter);
