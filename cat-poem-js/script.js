@@ -21,20 +21,15 @@ past = "happeneD"
 
 document.getElementById("demo").innerHTML
 = who + what + mode1
-+ "<br>"
 + mode2
-+ "<br>"
 + motion
-+ "<br>"
 + bigAction
-+ "<br>"
 + action1
++ "<br>"
 + action2
 + action3
 + how 
-+ "<br>"
 + "&amp;&amp;&amp;"
-+ "<br>"
 + go + "&ensp;" + where + ":" + manner
 + "as if" + "<br>"
 + thing + " had," + when
