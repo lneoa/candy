@@ -33,7 +33,7 @@ body {
   background-color: whitesmoke;
   font-family: monospace;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: 3em;
   letter-spacing: 2px;
   margin: 80px;
   height: 1200px;
@@ -64,9 +64,6 @@ small {
   top: 30vh;
   
 }
-
-
-
 
 /* .animate__hinge {
   animation-delay: 1s;
