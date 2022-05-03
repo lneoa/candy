@@ -1,0 +1,74 @@
+#p1 {background-color:yellow}
+#p2 {background-color:pink}
+#p3 {background-color:lightskyblue}
+#p4 {background-color:greenyellow;}
+#p5 {background-color:lightsalmon}
+#p6 {background-color:lavender}
+#p7 {background-color:lightseagreen}
+#p8 {background-color:lightcoral}
+
+
+#hidden1 {color:yellow}
+#hidden2 {color:pink}
+#hidden3 {color:lightskyblue}
+#hidden4 {color:greenyellow}
+#hidden5 {color:lightsalmon}
+#hidden6 {color:lavender}
+#hidden7 {color:lightseagreen}
+#hidden8 {color:lightcoral}
+
+
+.hidden {
+  color: lightcyan;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 2px;
+  margin: 80px;
+  height: 1200px;
+  text-align: left;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 40vh;
+}
+
+small {
+  visibility: hidden;
+  font-family: monospace;
+  font-size: 1em;
+  color: black;
+  /* text-shadow: 4px 4px 2px black; */
+}
+
+.test {
+  visibility: visible;
+  position: fixed;
+  top: 30vh;
+  
+}
+
+
+
+
+/* .animate__hinge {
+  animation-delay: 1s;
+
+} */

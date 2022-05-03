@@ -12,18 +12,14 @@ function addBlackBorder() {
 
     if (counter > 0) {
         button.classList.add("script-text")
-        button.innerHTML = "WORD CANDY"
+        button.innerHTML = "POETRY PLAZA"
     }
 
     if (counter > 1) {
-        button.innerHTML = "A Website"
+        button.innerHTML = "OPEN 24/7"
     }
 
-    if (counter > 2) {
-        button.innerHTML = "by Leona Cheung"
-    }
-
-    if (counter > 2) {
+    if (counter > 1) {
         counter = 0;
     }  
 }

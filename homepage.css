@@ -8,13 +8,9 @@
 
 .clickme {
     text-align: center;
-    font-size: 2em;
-
-}
-
-
-.clickme button {
-    border: 2px solid yellow;
+    font-size: 3em;
+    color: greenyellow;
+    text-shadow: 2px 2px 8px yellowgreen;
 
 }
 
@@ -32,16 +28,17 @@ body {
     padding: 20px;
     color: white;
     text-align: center;
+    font-size: large;
 
 }
 
 
 a {
     display: block;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 4px;
+    padding: 6px;
     margin-bottom: 8px;
     text-decoration: none;
     text-shadow: 2px 2px 8px magenta;
@@ -60,6 +57,33 @@ a {
     padding: 2px;
 }
 
+.hero-container {
+    border: 8px double red;
+    width: 100%;
+    margin: 10px;
+}
+
+.last-container {
+    border: 2px solid cyan;
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 0, 255, 0.17);
+}
+
+.last-link {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    color: cyan;
+    padding: 6px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px white;
+
+
+}
 
 .left, .right {
     
