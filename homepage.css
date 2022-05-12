@@ -61,6 +61,7 @@ a {
     border: 8px double red;
     width: 100%;
     margin: 10px;
+    padding: 20px;
 }
 
 .last-container {
@@ -72,15 +73,16 @@ a {
     background-color: rgba(255, 0, 255, 0.17);
 }
 
-.last-link {
+.exactly-mantra {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-align: center;
-    color: cyan;
-    padding: 6px;
+    color: blue;
+    padding: 10px;
     margin-bottom: 8px;
     text-decoration: none;
     text-shadow: 2px 2px 8px white;
+    background-color: white;
 
 
 }
@@ -111,9 +113,9 @@ a {
 }
 
 
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
     body {
         background-color: yellow;
         font-size: 2em;
     }
-}
+} */
